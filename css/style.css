@@ -1,0 +1,158 @@
+a:hover {
+    text-decoration: none;
+}
+.back-cl {
+    background: rgb(0,10,69);
+    background: linear-gradient(90deg, rgba(0,10,69,1) 30%, rgba(119,36,171,1) 62%);
+}
+.leftside {
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.leftside h1,h3 {
+    color: white;
+    margin-bottom: 0;
+}
+.leftside h1 {
+    font-size: 80px;
+}
+.middle-lvl {
+    color: white;
+    margin-left: 80px;
+}
+.bot-btn a {
+    color: white;
+    margin-left: 80px;
+    background: #7724ab;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+}
+.rightside {
+    background: white;
+    margin-right: 80px;
+    margin-top: 40px;
+    border-radius: 4px;
+}
+.rightside img {
+    width: 646px;
+    height: 132px;
+}
+.right-btm {
+    margin-right: 46px;
+    margin-top: 34px;
+}
+.right-btm strong {
+    font-size: 18px;
+    color: darkblue;
+}
+.right-btm p {
+    color: #615151;
+}
+.left-btm {
+    margin-left: 46px;
+    margin-top: 34px;
+}
+.left-btm i {
+    font-size: 33px;
+    color: #f70551;
+}
+.left-btm strong {
+    vertical-align: 4px;
+    margin-left: 5px;
+    font-weight: 500;
+}
+.leftside small {
+    font-size: 24px;
+}
+@media screen and (max-width: 1200px){
+    .rightside img {
+        width: 531px;
+    }
+}
+@media screen and (max-width: 992px){
+    .leftside,.middle-lvl,.bot-btn a {
+        margin-left: 15px;
+    }
+    .rightside {
+        margin-right: 15px;
+    }
+    .rightside img {
+        width: 433px;
+    }
+    .right-btm {
+        margin-right: 28px;
+    }
+    .left-btm {
+        margin-left: 28px;
+    }
+}
+@media screen and (max-width: 768px){
+    .rightside img {
+        width: 315px;
+    }
+}
+@media screen and (max-width: 576px){
+    .leftside h1 {
+        font-size: 40px;
+    }
+    .leftside h3 {
+        font-size: 15px;
+    }
+    .middle-lvl h6 {
+        font-size: 10px;
+    }
+    .leftside,.middle-lvl,.bot-btn a {
+        margin-left: 5px;
+    }
+    .leftside {
+        margin-bottom: 25px;
+    }
+    .bot-btn a {
+        font-size: 11px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .rightside {
+        margin-top: 48px;
+    }
+    .rightside img {
+        width: 244px;
+        height: 67px;
+    }
+    .right-btm {
+        margin-right: 13px;
+        margin-top: 0;
+    }
+    .left-btm {
+        margin-left: 13px;
+        margin-top: 0;
+    }
+    .left-btm strong {
+        margin-left: 0;
+        font-size: 8px;
+        display: block;
+    }
+    .left-btm i {
+        font-size: 16px;
+    }
+    .right-btm strong {
+        font-size: 10px;
+    }
+    .right-btm p {
+        font-size: 8px;
+    }
+    .leftside small {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width: 400px){
+    .rightside img {
+        width: 172px;
+    }
+}
